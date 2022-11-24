@@ -1,0 +1,125 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-size: cover;
+    /* width: 1280px; */
+    height: 73px;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+ margin: 0px;
+    padding: 29.5px;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    
+}
+
+nav {
+    background-size: cover;
+    background-image: url(/assets/imgs/bg-header.jpg);
+    /* width: 1280px; */
+    height: 727px;
+
+}
+
+main {
+    background-size: cover;
+    /* width: 1280px; */
+    height: 348px;
+    background-color: black;
+    overflow: auto;
+    
+    
+}
+
+main img {
+    width: 399px;
+    height: 237px;
+    /* margin-top: 45px;
+    margin-right: 150px;
+    margin-bottom: 66px;
+    margin-left: 30px; */
+    margin-left: 76px;
+    margin-right: 150px;
+    margin-top: 45px;
+
+}
+main p{
+    width: 475px;
+    height: 197px;
+    float: left;
+    /* margin-top: 76px;
+    margin-right: 655px;
+    margin-bottom: 75px;
+    margin-left: 150px; */
+    color: white;
+    margin-left: 150px;
+    margin-top: 76px;
+}
+
+section{
+    background-size: cover;
+   /*  width: 1280px; */
+    height: 348px;
+    background-color: #1E1A13;
+    color: white;
+    display: flow-root;
+    text-align: center;
+}
+
+.feature{
+    float: left;
+    width: 426px;
+    margin-top: 100px;
+    margin-left: 58px;
+    margin-bottom: 74px;
+}
+.feature i{
+    font-size: xx-large;
+}
+.feature p{
+    height: 30px;
+    font-size: xx-large;
+}
+.feature h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 0px;
+    margin-top: 70px;
+}   
+.feature i:hover{
+    color: goldenrod;
+}
+.galeria{
+    background-size: cover;
+    /* width: 1280px; */
+    height: 348px;
+    display: flow-root;
+    text-align: center;
+    background-color: black;
+}
+.galeria img{
+    width: 316px;
+    height: 202px;
+    display: inline-block;
+    margin-top: 73px;
+    margin-bottom: 73px;
+    padding: 8px;
+}
+footer{
+    background-color: #1E1A13;
+    text-align: center;
+    /* line-height: 0px; */
+    padding: 39px;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: goldenrod;
+}
